@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import AddTsk from './components/AddTask';
 import TodoList from './components/TodoList';
+import AddTask from './components/AddTask';
 
 export default function Home() {
   return (
-   <main>
+   <main　className="flex flex-qol items-center justify-center min-h-screen">
     <h1>Nextjs 13 Todo App</h1>
     <div>
       <div>
@@ -13,5 +13,5 @@ export default function Home() {
       </div>
     </div>
    </main>
-  )
+  );
 }
